@@ -1,13 +1,8 @@
 import React from "react";
-import Header from "../Header";
-import NavTabs from "../NavTabs/NavTabs";
-import Footer from "../Footer";
 
 function About() {
   return (
     <div>
-      <Header />
-      <NavTabs />
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="hero-title">Ann Cooper-Milne</h1>
@@ -26,7 +21,6 @@ function About() {
           </h3>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
