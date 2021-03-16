@@ -31,7 +31,13 @@ i.fab {
 .navbar-item:hover {
       transform: translate3D(0,-1px,0) scale(1.03);
     }
-
+.nav-link {
+    font-size: 30px;
+    
+}    
+.nav.justify-content-center {
+    background-color: lightgray;
+}
 .hero {
       animation: fadeIn ease 1s;
       -webkit-animation: fadeIn ease 1s;

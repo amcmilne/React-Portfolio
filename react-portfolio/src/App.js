@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import Repos from "./components/pages/Repos";
 import "./App.css";
 
+
 function App() {
   return (
     <div>
@@ -16,7 +17,7 @@ function App() {
         <div>
           <NavTabs />
           <Route exact path="/" component={About} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects" component={Projects} /> 
           <Route exact path="/repos" component={Repos} />
         </div>
       </Router>

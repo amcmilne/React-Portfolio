@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavTabs() {
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav justify-content-center">
       <li className="nav-item">
         <Link
           to="/"
           className={
-              window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link" : "nav-link"}
         >
           About
         </Link>
