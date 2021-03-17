@@ -56,15 +56,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const RepoCard = ({ repo}) => {
-  const classNamees = useStyles();
+  const classes = useStyles();
   return (
-    <Grid xs={12} sm={6} lg={3} className={classNamees.root}>
-      <Card className={classNamees.card}>
+    <Grid xs={12} sm={6} lg={3} className={classes.root}>
+      <Card className={classes.card}>
         <CardHeader
           avatar={
-            <Avatar aria-label="recipe" className={classNamees.avatar}>
+            <Avatar aria-label="recipe" className={classes.avatar}>
               <span
-                className="iconify"
+                class="iconify"
                 data-icon="octicon-mark-github-16"
                 data-inline="false"
               ></span>
@@ -76,7 +76,7 @@ const RepoCard = ({ repo}) => {
                 href={repo.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={classNamees.title}
+                className={classes.title}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 {repo.name}
@@ -84,7 +84,7 @@ const RepoCard = ({ repo}) => {
             </Typography>
           }
         />
-        <CardContent className={classNamees.cardContent}>
+        <CardContent className={classes.cardContent}>
           <Typography variant="body1">{repo.description}</Typography>
         </CardContent>
       </Card>

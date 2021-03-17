@@ -3,21 +3,21 @@ import React from "react";
 function Projects() {
   return (
     <div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">React Portfolio</p>
+              <p class="tile-title">React Portfolio</p>
             </strong>
-            <p className="subtitle is-italic">React Assignment</p>
+            <p class="subtitle is-italic">React Assignment</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://github.com/amcmilne/React-Portfolio"
                 alt="website"
               >
                <span
-                className="iconify"
+                class="iconify"
                 data-icon="octicon-mark-github-16"
                 data-inline="false"
               ></span>   
@@ -25,7 +25,7 @@ function Projects() {
               </a>
             </strong>
 
-            <div className="content">
+            <div class="content">
               <p>
                 This is my final portfolio using React, NodeJS, HTML, CSS, JS,
                 and finalizing my projects I have completed during my bootcamp.
@@ -47,9 +47,9 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img
                 src="./images/reactportfolio.gif"
                 alt="screenshot"
@@ -58,21 +58,21 @@ function Projects() {
           </article>
         </div>
       </div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">Brewery Finder</p>
+              <p class="tile-title">Brewery Finder</p>
             </strong>
-            <p className="subtitle is-italic">Group Project #1</p>
+            <p class="subtitle is-italic">Group Project #1</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://amcmilne.github.io/Brewery-Finder/"
                 alt="website"
               >
                <span
-                className="iconify"
+                class="iconify"
                 data-icon="octicon-mark-github-16"
                 data-inline="false"
               ></span> 
@@ -80,7 +80,7 @@ function Projects() {
               </a>
             </strong>
 
-            <div className="content">
+            <div class="content">
               <p>
                 The Brewery Finder application allows the user to search for
                 information on breweries by city and state and filter the
@@ -128,9 +128,9 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img
                 src="./images/breweryfinderimg.png"
                 alt="brewery screenshot"
@@ -139,21 +139,21 @@ function Projects() {
           </article>
         </div>
       </div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">Workout Tracker</p>
+              <p class="tile-title">Workout Tracker</p>
             </strong>
-            <p className="subtitle is-italic">MongoDB Assignment</p>
+            <p class="subtitle is-italic">MongoDB Assignment</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://github.com/amcmilne/Workout-Tracker/"
                 alt="website"
               >
               <span
-                className="iconify"
+                class="iconify"
                 data-icon="octicon-mark-github-16"
                 data-inline="false"
               ></span> 
@@ -161,7 +161,7 @@ function Projects() {
               </a>
             </strong>
 
-            <div className="content">
+            <div class="content">
               <p>
                 For this assignment, I have created a workout tracker that
                 allows a user to view, create, and track daily workouts. The
@@ -186,29 +186,29 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img src="./images/workoutapp.gif" alt="screenshot" />
             </figure>
           </article>
         </div>
       </div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">Employee Tracker</p>
+              <p class="tile-title">Employee Tracker</p>
             </strong>
-            <p className="subtitle is-italic">React Assignment</p>
+            <p class="subtitle is-italic">React Assignment</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://github.com/amcmilne/Employee-Directory"
                 alt="website"
               >
                 <span
-                className="iconify"
+                class="iconify"
                 data-icon="octicon-mark-github-16"
                 data-inline="false"
               ></span> 
@@ -216,7 +216,7 @@ function Projects() {
               </a>
             </strong>
 
-            <div className="content">
+            <div class="content">
               <p>
                 For this assignment, I created an employee directory with React.
                 This assignment divides application's UI into components,
@@ -240,28 +240,28 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img src="./images/app.gif" alt="screenshot" />
             </figure>
           </article>
         </div>
       </div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">Camping Planner</p>
+              <p class="tile-title">Camping Planner</p>
             </strong>
-            <p className="subtitle is-italic">Group Project #2</p>
+            <p class="subtitle is-italic">Group Project #2</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://campingplanner.herokuapp.com/"
                 alt="websiteimg"
               >
-                <span className="panel-icon">
+                <span class="panel-icon">
                   <img
                     id="heroku"
                     src="https://img.icons8.com/nolan/25/heroku.png"
@@ -271,7 +271,7 @@ function Projects() {
                 Camping Planner
               </a>
             </strong>
-            <div className="content">
+            <div class="content">
               <p>
                 Camping Planner application uses a series of technologies to
                 create a functioning app that allows users to choose from a list
@@ -333,34 +333,34 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img
                 src="./images/campingplanner2.png"
                 alt="camping screenshot"
               />
             </figure>
-            <figure className="image is-4by3">
+            <figure class="image is-4by3">
               <img src="./images/campingplanner.png" alt="camping site" />
             </figure>
           </article>
         </div>
       </div>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-8">
-          <article className="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
             <strong>
-              <p className="tile-title">Burger Town</p>
+              <p class="tile-title">Burger Town</p>
             </strong>
-            <p className="subtitle is-italic">Homework Assignment</p>
+            <p class="subtitle is-italic">Homework Assignment</p>
             <strong>
               <a
-                className="navbar-item"
+                class="navbar-item"
                 href="https://ancient-river-62644.herokuapp.com/"
                 alt="websiteimg"
               >
-                <span className="panel-icon">
+                <span class="panel-icon">
                   <img
                     id="heroku"
                     src="https://img.icons8.com/nolan/25/heroku.png"
@@ -370,7 +370,7 @@ function Projects() {
                 Burger Town
               </a>
             </strong>
-            <div className="content">
+            <div class="content">
               <p>
                 Whenever a user chooses a burger name, the app will display the
                 burger on the left side of the page -- waiting for payment. Each
@@ -395,9 +395,9 @@ function Projects() {
             </div>
           </article>
         </div>
-        <div className="tile is-parent is-4">
-          <article className="tile is-child box">
-            <figure className="image is-4by3">
+        <div class="tile is-parent is-4">
+          <article class="tile is-child box">
+            <figure class="image is-4by3">
               <img src="./images/burgerlogger.png" alt="burger website" />
             </figure>
           </article>
