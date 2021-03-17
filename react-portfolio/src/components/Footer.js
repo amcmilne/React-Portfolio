@@ -15,17 +15,17 @@ function Footer() {
             <div className="level-left">
                 <a className="level-item" aria-label="linkedin" href="https://www.linkedin.com/in/amcmilneptaat/">
                     <span className="icon is-small">
-                    <span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span>
+                    <span className="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span>
                     </span>
                 </a>
                 <a className="level-item" aria-label="github" href="https://github.com/amcmilne">
                     <span className="icon is-small">
-                    <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span>
+                    <span className="iconify" data-icon="logos:github-icon" data-inline="false"></span>
                     </span>
                 </a>
                 <a className="level-item" aria-label="resume" href="./RESUME2020pdf.pdf">
                     <span className="icon is-small">
-                    <span class="iconify" data-icon="vscode-icons:file-type-pdf" data-inline="false"></span>
+                    <span className="iconify" data-icon="vscode-icons:file-type-pdf" data-inline="false"></span>
                     </span>
                 </a>
             </div>

@@ -1,0 +1,24 @@
+{
+  "name": "React-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcmilne/React-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amcmilne/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/amcmilne/React-Portfolio#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

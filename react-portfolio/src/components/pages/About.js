@@ -2,17 +2,17 @@ import React from "react";
 
 function About() {
   return (
-    <div class="tile is-ancestor">
-      <div class="tile is-parent is-12">
-        <figure class="image is-156x156">
+    <div className="tile is-ancestor">
+      <div className="tile is-parent is-12">
+        <figure className="image is-156x156">
           <img src="./images/amcm.jpg" alt="headshot" />
         </figure>
-        <article class="tile is-child box">
+        <article className="tile is-child box">
           <strong>
-            <p class="tile-title">About Me:</p>
+            <p className="tile-title">About Me:</p>
           </strong>
 
-          <div class="content">
+          <div className="content">
             <p>
               My Name is Ann Cooper-Milne. I have a Bachelor of Science in
               Athletic Training and an Associate of Applied Science is Physical
