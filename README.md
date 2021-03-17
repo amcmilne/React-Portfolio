@@ -1,4 +1,4 @@
-# React-Portfolio# React-Portfolio
+# React-Portfolio
 
 ## Description
 * This is my final portfolio using React, NodeJS, HTML, CSS, JS, and finalizing my projects I have completed during my bootcamp.
