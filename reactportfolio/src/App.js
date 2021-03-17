@@ -7,6 +7,7 @@ import Projects from "../src/components/pages/Projects";
 import About from "../src/components/pages/About";
 import Repos from "../src/components/pages/Repos";
 import "./App.css";
+console.log(process.env.REACT_APP_API_KEY)
 
 
 function App() {
