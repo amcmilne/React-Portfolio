@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const RepoCard = ({ repo}) => {
+const RepoCard = ({ repo }) => {
   const classes = useStyles();
   return (
     <Grid xs={12} sm={6} lg={3} className={classes.root}>
@@ -93,3 +93,5 @@ const RepoCard = ({ repo}) => {
 };
 
 export default RepoCard;
+
+//majority of code WRITTEN BY Sabesan Sathananthan https://bootcamp.uxdesign.cc/embed-your-github-project-on-your-react-website-ccefacc30f62 and extended by Ann Cooper-Milne //

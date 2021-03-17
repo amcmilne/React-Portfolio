@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Axios from "axios";
 import baseURL from "../../utils/github";
 import RepoCard from "../RepoCard";
-import { Grid } from "@material-ui/core"; 
-require('dotenv').config();
+import { Grid } from "@material-ui/core";
+require("dotenv").config();
 
 class Repos extends Component {
   Title = [];
@@ -14,8 +14,7 @@ class Repos extends Component {
 
   async componentDidMount() {
     const api_key = `${process.env.REACT_APP_API_KEY}`;
-    
- 
+
     let repo = [
       baseURL(`Employee-Directory`),
       baseURL(`Budget-Tracker`),
@@ -71,3 +70,4 @@ class Repos extends Component {
   }
 }
 export default Repos;
+//majority of code WRITTEN BY Sabesan Sathananthan https://bootcamp.uxdesign.cc/embed-your-github-project-on-your-react-website-ccefacc30f62 and extended by Ann Cooper-Milne //
