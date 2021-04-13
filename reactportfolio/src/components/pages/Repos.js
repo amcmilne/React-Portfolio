@@ -30,7 +30,6 @@ class Repos extends Component {
       baseURL(`Day-Planner`),
       baseURL(`Code-Quiz`),
       baseURL(`Password-Generator`),
-      baseURL(`Code-Refractor`),
       baseURL(`Responsive-Portfolio`),
       baseURL(`Portfolio`),
     ];

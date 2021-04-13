@@ -4,7 +4,10 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
- 
+ }
+
+ .about {
+     font-size: larger;
  }
 #images.row {
   align-content: center;

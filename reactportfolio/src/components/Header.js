@@ -8,15 +8,16 @@ function Header() {
           <div class="hero-body">
             <div class="container has-text-centered">
               <h1 class="hero-title">Ann Cooper-Milne</h1>
+              <h2 className= "hero-content"> Full Stack Web Developer</h2>
               <h3>
                 <span class="panel-icon">
                   <i class="far fa-envelope"></i>
                 </span>
-                amccmilne@gmail.com
+                amcmilne@gmail.com
                 <span class="panel-icon">
                   <i class="fas fa-mobile-alt"></i>
                 </span>
-                (973)213-1611
+                (614)467-0179
               </h3>
             </div>
           </div>
