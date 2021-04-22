@@ -1,4 +1,5 @@
 import React from "react";
+import SimpleBar from "simplebar-react";
 import {
   makeStyles,
   Card,
@@ -25,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     transition: "0.3s",
     minHeight: "270px",
-    overflow: "scroll",
+    scrollbar: "background-color: red",
     borderRadius: ".625rem!important",
     boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
     "&:hover": {
@@ -59,6 +60,7 @@ const RepoCard = ({ repo }) => {
   const classes = useStyles();
   return (
     <Grid xs={12} sm={6} lg={3} className={classes.root}>
+      {" "}
       <Card className={classes.card}>
         <CardHeader
           avatar={
@@ -84,9 +86,11 @@ const RepoCard = ({ repo }) => {
             </Typography>
           }
         />
-        <CardContent className={classes.cardContent}>
-          <Typography variant="body1">{repo.description}</Typography>
-        </CardContent>
+        <SimpleBar>
+          <CardContent className={classes.cardContent}>
+            <Typography variant="body1">{repo.description}</Typography>
+          </CardContent>
+        </SimpleBar>
       </Card>
     </Grid>
   );

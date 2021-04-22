@@ -23,7 +23,7 @@ function Footer() {
                     <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span>
                     </span>
                 </a>
-                <a className="level-item" aria-label="resume" href="./RESUME2020pdf.pdf">
+                <a className="level-item" aria-label="resume" href="../../Resume.pdf">
                     <span className="icon is-small">
                     <span class="iconify" data-icon="vscode-icons:file-type-pdf" data-inline="false"></span>
                     </span>
